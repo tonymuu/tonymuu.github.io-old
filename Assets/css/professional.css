@@ -1,0 +1,119 @@
+body
+{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
+.container
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	line-height: 36px;
+	padding: 24px;
+	padding-right: 120px;
+	padding-left: 120px;
+	position: relative;
+	margin-top: 24px;
+}
+
+.nav .container
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+}
+
+.nav .nav .nav-tabs .navbar-fixed-top
+{
+	float: right;
+}
+
+.jumbotron 
+{
+	margin-top: 360px;
+	background-color: rgba(0,0,0,0);
+}
+
+.jumbotron .container
+{
+	padding-right: 0;
+}
+
+.summary .container
+{
+	background-color: #FFFFFF;
+}
+
+.jumbotron h1
+{
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+}
+
+.jumbotron p
+{
+	vertical-align: bottom;
+}
+
+.jumbotron .btn-info
+{
+	position: relative;
+	top: 150px;	
+}
+
+.projects .container
+{
+	background-color: #E0F0FF;
+}
+
+.contact .container
+{
+	background-color: #FFFFFF;
+}
+
+#resume
+{
+}
+
+
+
+.btn
+{
+	margin: 36px;
+}
+
+.icon
+{
+	width: 36px;
+	height: 36px;
+	margin: 4px;
+}
+
+#social
+{
+	display: inline;
+}
+
+#project1
+{
+	border-right: solid;
+	border-width: 1px;
+	padding: 48px;
+
+}
+
+#project1 img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+hr
+{
+	border-style: inset;
+}
