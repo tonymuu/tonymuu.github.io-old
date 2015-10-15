@@ -22,14 +22,16 @@ body
 
 .nav .container
 {
+	width: 100vw;
+	background-color: #FFFFFF;
 	padding: 0;
-	margin: 0;
 	margin-top: 0;
 }
 
-.nav .nav .nav-tabs .navbar-fixed-top
+.nav li
 {
-	float: right;
+	padding-left: 16px;
+	padding-right: 16px;
 }
 
 .jumbotron 
@@ -40,23 +42,24 @@ body
 
 .jumbotron .container
 {
+	text-align: left;
+	padding-left: 0;
 	padding-right: 0;
-}
-
-.summary .container
-{
-	background-color: #FFFFFF;
+	margin-left: 8vw;
+	margin-bottom: 100px;
 }
 
 .jumbotron h1
 {
+	padding-top: 70vh;
 	font-size: 48px;
 	font-weight: bold;
-	color: #E0F0FF;
+	color: #FFFFFF;
 }
 
 .jumbotron p
 {
+	color: #FFFFFF;
 	vertical-align: bottom;
 }
 
@@ -64,6 +67,15 @@ body
 {
 	position: relative;
 	top: 150px;	
+}
+
+.summary
+{
+}
+
+.summary .container
+{
+	background-color: #FFFFFF;
 }
 
 .projects .container
