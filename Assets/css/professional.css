@@ -34,7 +34,7 @@ body
 
 .jumbotron 
 {
-	margin-top: 360px;
+	height: 100vh;
 	background-color: rgba(0,0,0,0);
 }
 
@@ -52,7 +52,7 @@ body
 {
 	font-size: 48px;
 	font-weight: bold;
-	color: white;
+	color: #E0F0FF;
 }
 
 .jumbotron p
@@ -68,7 +68,7 @@ body
 
 .projects .container
 {
-	background-color: #E0F0FF;
+	background-color: #FFFFFF;
 }
 
 .contact .container
