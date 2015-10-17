@@ -51,7 +51,7 @@ body
 
 .jumbotron h1
 {
-	padding-top: 70vh;
+	padding-top: 60vh;
 	font-size: 48px;
 	font-weight: bold;
 	color: #FFFFFF;
@@ -123,6 +123,17 @@ body
 {
 	max-width: 100%;
 	max-height: 100%;
+}
+
+#project2
+{
+
+}
+
+#project2 img
+{
+	max-height: 100%;
+	max-width: 100%;
 }
 
 hr
