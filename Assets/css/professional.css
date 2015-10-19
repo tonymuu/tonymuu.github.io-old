@@ -13,11 +13,11 @@ body
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: 36px;
-	padding: 24px;
-	padding-right: 120px;
-	padding-left: 120px;
 	position: relative;
-	margin-top: 24px;
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	margin: auto;
+
 }
 
 .nav .container
@@ -36,32 +36,31 @@ body
 
 .jumbotron 
 {
+	padding: 0;
+	margin: 0;
 	height: 100vh;
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(19,49,92,0.8);
 }
 
 .jumbotron .container
 {
-	text-align: left;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
 	padding-left: 0;
 	padding-right: 0;
-	margin-left: 8vw;
-	margin-bottom: 100px;
+	margin-left: 0;
 }
 
-.jumbotron h1
+.jumbotron h1, p
 {
-	padding-top: 60vh;
+	position: relative;
+	top: 50%;
 	font-size: 48px;
 	font-weight: bold;
 	color: #FFFFFF;
 }
 
-.jumbotron p
-{
-	color: #FFFFFF;
-	vertical-align: bottom;
-}
 
 .jumbotron .btn-info
 {
@@ -71,16 +70,34 @@ body
 
 .summary
 {
+	background-color: rgba(0,0,0,0.5);
 }
 
 .summary .container
 {
-	background-color: #FFFFFF;
+	padding-top: 10vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	margin: auto;
+	background-color: #AFCCCC;
+}
+
+
+
+.projects
+{
+		background-color: rgba(0,0,0,0.5);
+		margin-bottom: 60vh;
 }
 
 .projects .container
 {
-	background-color: #FFFFFF;
+	background-color: #F6F9F4;
+}
+
+.contact
+{
+	background-color: rgba(0,0,0,0.5);
 }
 
 .contact .container
@@ -135,6 +152,17 @@ body
 	max-height: 100%;
 	max-width: 100%;
 }
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 40px solid #0f0f0f;
+	border-right: 40px solid #000000;
+	border-top: 40px solid #FFFFFF;
+	position: absolute;
+	bottom: 10px;
+}
+
 
 hr
 {
