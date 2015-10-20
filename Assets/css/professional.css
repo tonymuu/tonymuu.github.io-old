@@ -1,10 +1,11 @@
 body
 {
 	max-width: 100%;
+	background-position: right bottom;
 	background-image: url("bg2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100vmax 100vh;
 }
 
 h1
