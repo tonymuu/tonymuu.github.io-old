@@ -16,12 +16,12 @@ font-family: 'Trochut', cursive;
 
 h1
 {
-	font-size: 4vw;
+	font-size: 4vmax;
 }
 
 p
 {
-	font-size: 1.3vw;
+	font-size: 1.3vmax;
 }
 
 .container
@@ -91,11 +91,13 @@ p
 
 .summary
 {
+	height: 50vh;
 	background-color: #FFFFFF;
 }
 
 .summary .container
 {
+	height: 50vh;
 	text-align: center;
 	padding-top: 10vh;
 	padding-left: 20vw;
