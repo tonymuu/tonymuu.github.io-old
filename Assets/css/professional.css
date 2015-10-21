@@ -1,5 +1,7 @@
 body
 {
+
+	font-family: 'Yanone Kaffeesatz', sans-serif;
 	max-width: 100%;
 	background-position: right bottom;
 	background-image: url("bg2.jpg");
@@ -8,20 +10,23 @@ body
 	background-size: 100vw 100vh;
 }
 
+font-family: 'Orbitron', sans-serif;
+font-family: 'Cantarell', sans-serif;
+font-family: 'Trochut', cursive;
+
 h1
 {
-	font-size: 12vw;
+	font-size: 4vw;
 }
 
 p
 {
-	font-size: 2vw;
+	font-size: 1.3vw;
 }
 
 .container
 {
-	font-family: 'Open Sans', sans-serif;
-	line-height: 4vw;
+	line-height: 4vh;
 	position: relative;
 	background-color: rgba(0,0,0,0);
 	width: 100%;
@@ -91,9 +96,10 @@ p
 
 .summary .container
 {
+	text-align: center;
 	padding-top: 10vh;
-	padding-left: 15vw;
-	padding-right: 15vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
 	margin: auto;
 	background-color: #FFFFFF;
 }
@@ -102,8 +108,7 @@ p
 
 .projects
 {
-		background-color: rgba(0,0,0,0.5);
-		margin-bottom: 60vh;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .projects .container
@@ -121,24 +126,29 @@ p
 	margin: 36px;
 }
 
-
 #project1
 {
-	border-right: solid;
-	border-width: 1px;
-	padding: 48px;
-
+	padding-left: 16vw;
+	padding-right: 8vw;
 }
 
 #project1 img
 {
 	max-width: 100%;
 	max-height: 100%;
+	padding-left: 
 }
 
 #project2
 {
+	padding-left: 8vw;
+	padding-right: 8vw;
+}
 
+#project3
+{
+	padding-left: 8vw;
+	padding-right: 16vw;
 }
 
 #project2 img
@@ -150,12 +160,13 @@ p
 .contact
 {
 	background-color: rgba(0,0,0,0.5);
+	padding-top: 50vh;
 }
 
 .contact .container
 {
 	background-color: #FFFFFF;
-	padding-bottom: 10vh;
+	padding-bottom: 0;
 }
 
 .icon
