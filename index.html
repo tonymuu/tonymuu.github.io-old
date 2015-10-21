@@ -131,24 +131,27 @@
 	<div class="contact" id="contact">
 		<div class="container">
 			<h3>Talk to Me</h3>
-			<div class="col-md-8">
+			<div class="col-md-7" id="message">
 				<h4>Contact Me</h4>
-				<div class="form">
-					<div class="top-row">
-						<div class="field-wrap">
-							<label>Name</label>
-							<input type="text" placeholder="Your name">
-						</div>
-						<div class="field-wrap">
-							<label>Email</label>
-							<input type="email" placeholder="Contact email">
-						</div>
+				<form role="form">
+					<div class="col-sm-8" id="name">
+						<label for="nameTB">Your Name: </label>
+						<input class="form-control" id="nameTB" type="text">
 					</div>
-					<textarea></textarea>
-				</div>
+					<div class="col-sm-8" id="email">
+						<label for="emailTB">Your Email: </label>
+						<input class="form-control" id="emailTB" type="email">
+					</div>
+					<div class="col-sm-8">
+						<label for="comment">A short and sweet message: </label>
+						<textarea class="form-control" rows="10" id="comment"></textarea>
+					</div>
+					<div class="col-sm-8">
+						<button type="submit" class="btn btn-success">Send!</button>
+					</div>
+				</form>
 			</div>
-				<p>email:tony.mu101999@gmail.com</p>
-				<p>mail:</p>
+			<div class="col-md-1"></div>
 			<div id="social" class="col-md-4">
 				<h4>Social Media Stuff</h4>
 				<a href="https://twitter.com/intent/follow?screen_name=tonymuu"><img class="icon" src="Assets/images/twitter.png"></a>

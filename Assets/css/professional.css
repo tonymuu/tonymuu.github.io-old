@@ -181,6 +181,17 @@ p
 	bottom: 10px;
 }
 
+#nameTB, #emailTB
+{
+	width: 70%;
+}
+
+#message
+{
+	line-height: 2vh;
+	display: inline-block;
+	padding-left: 7%;
+}
 
 hr
 {
