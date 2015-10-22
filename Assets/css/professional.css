@@ -24,35 +24,30 @@ p
 	font-size: 1.3vmax;
 }
 
+#nav1
+{
+	height: 5vh;
+	margin: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	font-size: 2vh;
+}
+
 .container
 {
 	line-height: 4vh;
-	position: relative;
 	background-color: rgba(0,0,0,0);
 	width: 100%;
 	margin: auto;
 
 }
 
-.nav .container
+.btn
 {
-	color: #FFFFFF;
-	width: 100%;
-	background-color: rgba(0,0,0,0.0);
-	padding: auto;
-	margin-top: 0;
-}
-
-.leftnav 
-{
-	width: 100vw;
-	padding: auto;
-}
-
-.nav li
-{
-	text-align: center;
-	width: 33%;
+	margin: 36px;
+	width: 30%;
+	margin: auto;
 }
 
 .jumbotron 
@@ -91,19 +86,29 @@ p
 
 .summary
 {
-	height: 50vh;
+	min-height: 50vh;
 	background-color: #FFFFFF;
 }
 
 .summary .container
 {
-	height: 50vh;
+	min-height: 50vh;
 	text-align: center;
 	padding-top: 10vh;
 	padding-left: 20vw;
 	padding-right: 20vw;
 	margin: auto;
 	background-color: #FFFFFF;
+}
+
+#skills
+{
+	text-align: center;
+}
+
+#skills .col-md-4 li
+{
+	text-align: left;
 }
 
 .summary #arrow2
@@ -118,21 +123,16 @@ p
 {
 	background-color: #F6F9F4;
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .projects .container
 {
-	width: 80%;
+	padding-top: 10vh;
+	padding-left: 20vw;
+	padding-right: 20vw;
 	margin: auto;
 }
-
-
-.btn
-{
-	margin: 36px;
-}
-
 
 #project1
 {
