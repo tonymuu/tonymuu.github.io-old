@@ -1,6 +1,5 @@
 body
 {
-
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	max-width: 100%;
 	background-position: right bottom;
@@ -24,19 +23,29 @@ p
 	font-size: 1.3vmax;
 }
 
-#nav1
+a
 {
-	height: 5vh;
-	margin: 0;
-	background-color: rgba(0,0,0,0.5);
-	color: white;
-	border: none;
-	font-size: 3vh;
+	color: #fff;
+	padding: 0.2em 1em 0.2em 1em;
+	margin: 0.6em 0.2em 0.6em 0.2em;
+	border-radius: 8px;
+}
+
+a:hover
+{
+	background: #383838;
+	color: #fff;
+	text-decoration: none !important;
+}
+
+a:visited
+{
+	color: #fff;
 }
 
 .container
 {
-	line-height: 4vh;
+	line-height: 1.8em;
 	background-color: rgba(0,0,0,0);
 	width: 100%;
 	margin: auto;
@@ -48,6 +57,36 @@ p
 	margin: 36px;
 	min-width: 30%;
 	margin: auto;
+}
+
+#nav1
+{
+	height: 5vh;
+	margin: 0;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	font-size: 3vh;
+	text-align: center;
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	z-index: 10000;	
+}
+
+#nav1 ul li
+{
+	padding-right: 2vw;
+	padding-left: 2vw;
+	display: inline;
+}
+
+#arrow1 a
+{
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	display: inline-block;		
 }
 
 .jumbotron 
@@ -72,7 +111,6 @@ p
 {
 	position: relative;
 	top: 50%;
-	font-weight: bold;
 	color: #FFFFFF;
 }
 
