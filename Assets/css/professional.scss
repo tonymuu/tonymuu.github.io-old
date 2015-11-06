@@ -7,24 +7,29 @@ body {
   background-attachment: fixed;
   background-size: 100vw 100vh;
   font-weight: 300;
-  line-height: 2.5em; }
+  line-height: 2.5em;
+}
 
 a {
   color: #fff;
   padding: 0.2em 1em 0.2em 1em;
   margin: 0.6em 0.2em 0.6em 0.2em;
-  border-radius: 8px; }
-  a:hover {
+  border-radius: 8px;
+  &:hover {
     background: #383838;
     color: #fff;
-    text-decoration: none !important; }
-  a:visited {
-    color: #fff; }
+    text-decoration: none !important;
+  }
+  &:visited {
+    color: #fff;
+  }
+}
 
 .container {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   width: 100%;
-  margin: auto; }
+  margin: auto;
+}
 
 #nav1 {
   height: 5vh;
@@ -37,103 +42,135 @@ a {
   position: fixed;
   background-color: black;
   width: 100%;
-  z-index: 10000; }
-  #nav1 ul li {
+  z-index: 10000;
+  ul li {
     padding-right: 2vw;
     padding-left: 2vw;
-    display: inline; }
+    display: inline;
+  }
+}
 
 #arrow1 a {
   color: white;
   border-style: solid;
   border-width: 1px;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .jumbotron {
   padding: 0;
   margin: 0;
   height: 100vh;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7); }
-  .jumbotron .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  .container {
     height: 100vh;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
-    margin-left: 0; }
-  .jumbotron h1, .jumbotron p {
+    margin-left: 0;
+  }
+  h1, p {
     position: relative;
     top: 50%;
-    color: #FFFFFF; }
-  .jumbotron #arrow1 {
+    color: #FFFFFF;
+  }
+  #arrow1 {
     width: 100%;
     height: 5%;
     position: absolute;
-    top: 90%; }
+    top: 90%;
+  }
+}
 
 .summary {
   min-height: 50vh;
-  background-color: #fafafa; }
-  .summary h2 {
-    font-size: 3em; }
-  .summary h3 {
-    font-size: 2em; }
-  .summary p {
-    font-size: 1.5em; }
-  .summary .container {
+  background-color: #fafafa;
+  h2 {
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+  .container {
     padding-top: 5%;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%;
-    background-color: #E8E8E8; }
-  .summary .box {
+    background-color: #E8E8E8;
+  }
+  .box {
     padding: 3em;
     margin-bottom: 1em;
     background-color: #FFFFFF;
-    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-    .summary .box .fa {
-      font-size: 12.0em; }
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+    .fa{
+      font-size: 12.0em;
+    }
+
+  }
+
+}
 
 #skills {
-  text-align: center; }
-  #skills .col-md-4 li {
-    text-align: left; }
+  text-align: center;
+  .col-md-4 li {
+    text-align: left;
+  }
+}
 
 .projects {
   background-color: #F6F9F4;
-  min-height: 100vh; }
-  .projects .container {
+  min-height: 100vh;
+  .container {
     padding-top: 10vh;
     padding-left: 20vw;
     padding-right: 20vw;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+  }
+}
 
 #projects img {
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+}
 
 #project1 {
-  height: 20vh; }
+  height: 20vh;
+  img {}
+}
+
+#project2 {}
 
 #project3 {
-  height: 20vh; }
+  height: 20vh;
+}
+
+#project2 img {}
 
 .contact {
   background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 50vh; }
-  .contact .container {
+  padding-top: 50vh;
+  .container {
     background-color: #FFFFFF;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+  }
+}
 
 .icon {
   width: 36px;
   height: 36px;
-  margin: 4px; }
+  margin: 4px;
+}
 
 #social {
-  display: inline; }
+  display: inline;
+}
 
 .arrow-down {
   width: 0;
@@ -142,17 +179,19 @@ a {
   border-right: 40px solid #000000;
   border-top: 40px solid #FFFFFF;
   position: absolute;
-  bottom: 10px; }
+  bottom: 10px;
+}
 
 #nameTB, #emailTB {
-  width: 70%; }
+  width: 70%;
+}
 
 #message {
   line-height: 2vh;
   display: inline-block;
-  padding-left: 7%; }
+  padding-left: 7%;
+}
 
 hr {
-  border-style: inset; }
-
-/*# sourceMappingURL=professional.css.map */
+  border-style: inset;
+}
