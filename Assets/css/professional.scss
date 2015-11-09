@@ -235,8 +235,9 @@ hr {
 
 //form
 #form1 {
-  $body-bg: #c1bdba;
-  $form-bg: #13232f;
+
+  $body-bg: #140F30;
+  $form-bg: #2C3468;
   $white: #ffffff;
 
   $main: #1ab188;
@@ -250,6 +251,9 @@ hr {
   $normal: 400;
   $bold: 600;
   $br: 4px;
+
+  background-color: $body-bg;
+  padding-top: 10vh;
 
   *, *:before, *:after {
     box-sizing: border-box;
@@ -276,7 +280,7 @@ hr {
     background:rgba($form-bg,.9);
     padding: 40px;
     max-width:600px;
-    margin:40px auto;
+    margin:0 auto;
     border-radius:$br;
     box-shadow:0 4px 10px 4px rgba($form-bg,.3);
   }
@@ -294,6 +298,7 @@ hr {
       display:block;
       text-decoration:none;
       padding:15px;
+      margin: 0;
       background:rgba($gray-light,.25);
       color:$gray-light;
       font-size:20px;
