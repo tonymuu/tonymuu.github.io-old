@@ -22,34 +22,13 @@ a {
     color: #fff; }
 
 .container {
-  background-color: transparent;
   width: 100%;
   margin: auto; }
-
-.box.style1 {
-  padding: 3em;
-  margin-bottom: 1em;
-  background-color: #FFFFFF;
-  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-  .box.style1 .fa {
-    font-size: 12.0em;
-    color: #565676; }
-.box.style2 {
-  padding: 3em;
-  margin-bottom: 1em;
-  background-color: #FFFFFF;
-  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-  .box.style2 .image {
-    position: relative;
-    left: 2em;
-    top: 2em;
-    margin: -4em 0 4em -4em;
-    width: 100%; }
 
 #nav1 {
   height: 5vh;
   margin: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   color: white;
   border: none;
   font-size: 3vh;
@@ -66,34 +45,35 @@ a {
 .jumbotron {
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
-  background-color: rgba(86, 86, 118, 0.5); }
+  background-color: #565676; }
   .jumbotron .container {
-    height: 100vh;
+    height: 100%;
     text-align: center;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0; }
   .jumbotron h1,
-  .jumbotron p {
+  .jumbotron p,
+  .jumbotron h3 {
     position: relative;
-    top: 50%;
-    color: #FFFFFF; }
+    top: 40%;
+    color: #fff; }
   .jumbotron .jump {
     width: 100%;
     height: 5%;
-    position: absolute;
-    top: 90%; }
+    position: relative;
+    top: 50%; }
     .jumbotron .jump a {
-      color: white;
+      color: #fff;
       border-style: solid;
       border-width: 1px;
       display: inline-block; }
 
 .summary {
   min-height: 50vh;
-  background-color: #F2F4FF; }
+  background-color: #fff; }
   .summary h2 {
     font-size: 3em; }
   .summary h3 {
@@ -105,8 +85,26 @@ a {
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
-    padding-bottom: 5%;
-    background-color: #F2F4FF; }
+    padding-bottom: 5%; }
+  .summary .box.style1 {
+    padding: 3em;
+    margin-bottom: 1em;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
+    .summary .box.style1 .fa {
+      font-size: 12.0em;
+      color: #565676; }
+  .summary .box.style2 {
+    padding: 3em;
+    margin-bottom: 1em;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
+    .summary .box.style2 .image {
+      position: relative;
+      left: 2em;
+      top: 2em;
+      margin: -4em 0 4em -4em;
+      width: 100%; }
   .summary .jump {
     width: 100%;
     height: 5%;
@@ -117,7 +115,7 @@ a {
       border-width: 1px;
       display: inline-block; }
       .summary .jump a:hover {
-        color: white; }
+        color: #fff; }
 
 #skills {
   text-align: center; }
@@ -125,7 +123,7 @@ a {
     text-align: left; }
 
 .projects {
-  background-color: #FFF;
+  background-color: #F2F4FF;
   min-height: 100vh; }
   .projects img {
     max-height: 100%;
@@ -136,9 +134,26 @@ a {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%;
-    background-color: #FFF; }
+    background-color: #F2F4FF; }
 
 hr {
   border-style: inset; }
+
+#contact {
+  background-color: #565676;
+  color: #fff; }
+  #contact .row {
+    margin-top: 2em; }
+  #contact input,
+  #contact textarea {
+    background-color: #383838;
+    padding: 0.5em;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%; }
+  #contact textarea {
+    height: 15em; }
+  #contact #button {
+    background-color: #2B9720; }
 
 /*# sourceMappingURL=professional.css.map */

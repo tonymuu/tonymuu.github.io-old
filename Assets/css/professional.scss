@@ -1,15 +1,10 @@
-$body-bg: #140F30;
-$form-bg: #2C3468;
-$white: #ffffff;
-$main: #1ab188;
-$main-light: lighten($main, 5%);
-$main-dark: darken($main, 5%);
-$gray-light: #a0b3b0;
-$gray: #ddd;
-$thin: 300;
-$normal: 400;
-$bold: 600;
-$br: 4px;
+$nav-background: black;
+$textbox-bg: #383838;
+$main: rgba(86, 86, 118, 1.0);
+$light-bg: #F2F4FF;
+$hover-dark: #383838;
+$white:#fff;
+$send-button-bg: #2B9720;
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     max-width: 100%;
@@ -23,57 +18,29 @@ body {
 }
 
 a {
-    color: #fff;
+    color: $white;
     padding: 0.2em 1em 0.2em 1em;
     margin: 0.6em 0.2em 0.6em 0.2em;
     border-radius: 8px;
     &:hover {
-        background: #383838;
-        color: #fff;
+        background: $hover-dark;
+        color: $white;
         text-decoration: none !important;
     }
     &:visited {
-        color: #fff;
+        color: $white;
     }
 }
 
 .container {
-    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     margin: auto;
-}
-
-.box {
-    &.style1 {
-        padding: 3em;
-        margin-bottom: 1em;
-        background-color: #FFFFFF;
-        box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-        .fa {
-            font-size: 12.0em;
-            color: #565676
-        }
-    }
-    &.style2 {
-        padding: 3em;
-        margin-bottom: 1em;
-        background-color: #FFFFFF;
-        box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-        a {}
-        .image {
-            position: relative;
-            left: 2em;
-            top: 2em;
-            margin: -4em 0 4em -4em;
-            width: 100%;
-        }
-    }
 }
 
 #nav1 {
     height: 5vh;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: $nav-background;
     color: white;
     border: none;
     font-size: 3vh;
@@ -92,29 +59,30 @@ a {
 .jumbotron {
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
-    background-color: rgba(86, 86, 118, 0.5);
+    background-color: $main;
     .container {
-        height: 100vh;
+        height: 100%;
         text-align: center;
         padding-left: 0;
         padding-right: 0;
         margin-left: 0;
     }
     h1,
-    p {
+    p,
+    h3 {
         position: relative;
-        top: 50%;
-        color: #FFFFFF;
+        top: 40%;
+        color: $white;
     }
     .jump {
         width: 100%;
         height: 5%;
-        position: absolute;
-        top: 90%;
+        position: relative;
+        top: 50%;
         a {
-            color: white;
+            color: $white;
             border-style: solid;
             border-width: 1px;
             display: inline-block;
@@ -124,7 +92,7 @@ a {
 
 .summary {
     min-height: 50vh;
-    background-color: #F2F4FF;
+    background-color: $white;
     h2 {
         font-size: 3em;
     }
@@ -140,7 +108,32 @@ a {
         padding-left: 15%;
         padding-right: 15%;
         padding-bottom: 5%;
-        background-color: #F2F4FF;
+    }
+    .box {
+        &.style1 {
+            padding: 3em;
+            margin-bottom: 1em;
+            background-color: #FFFFFF;
+            box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+            .fa {
+                font-size: 12.0em;
+                color: $main
+            }
+        }
+        &.style2 {
+            padding: 3em;
+            margin-bottom: 1em;
+            background-color: #FFFFFF;
+            box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+            a {}
+            .image {
+                position: relative;
+                left: 2em;
+                top: 2em;
+                margin: -4em 0 4em -4em;
+                width: 100%;
+            }
+        }
     }
     .jump {
         width: 100%;
@@ -152,7 +145,7 @@ a {
             border-width: 1px;
             display: inline-block;
             &:hover {
-                color: white;
+                color: $white;
             }
         }
     }
@@ -166,7 +159,7 @@ a {
 }
 
 .projects {
-    background-color: #FFF;
+    background-color: $light-bg;
     min-height: 100vh;
     img {
         max-height: 100%;
@@ -178,7 +171,7 @@ a {
         padding-left: 15%;
         padding-right: 15%;
         padding-bottom: 5%;
-        background-color: #FFF;
+        background-color: $light-bg;
     }
 }
 
@@ -186,3 +179,28 @@ hr {
     border-style: inset;
 }
 
+#contact {
+    background-color: $main;
+    color: $white;
+    .row {
+        margin-top: 2em;
+    }
+    header {
+        
+    }
+
+    input,
+    textarea {
+        background-color: $textbox-bg;
+        padding: 0.5em;
+        border-radius: 8px;
+        font-size: 1em;
+        width: 100%;
+    }
+    textarea {
+        height: 15em;
+    }
+    #button {
+        background-color: $send-button-bg;
+    }
+}
