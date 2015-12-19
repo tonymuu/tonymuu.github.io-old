@@ -2,29 +2,48 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   max-width: 100%;
   background-position: right bottom;
-  background-image: url("bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100vw 100vh;
   font-weight: 400;
   font-size: 1.5em;
   line-height: 2em; }
 
-a {
-  color: #fff;
-  padding: 0.2em 1em 0.2em 1em;
-  margin: 0.6em 0.2em 0.6em 0.2em;
-  border-radius: 8px; }
-  a:hover {
-    background: #383838;
-    color: #fff;
-    text-decoration: none !important; }
-  a:visited {
-    color: #fff; }
+h2 {
+  font-size: 3em; }
+
+h3 {
+  font-size: 2em; }
+
+p {
+  font-size: 1.5em; }
 
 .container {
   width: 100%;
   margin: auto; }
+
+.box.style1 {
+  padding: 3em;
+  padding-bottom: 1.5em;
+  margin-bottom: 3em;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.2); }
+  .box.style1 .fa {
+    font-size: 12.0em;
+    color: #4B7EC1; }
+.box.style2 {
+  width: 20em;
+  height: 30em;
+  padding: 0.5em 0.5em 3em 0.5em;
+  margin-bottom: 1em;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.5); }
+  .box.style2 .image {
+    position: relative;
+    left: 2em;
+    top: 2em;
+    margin: -4em 0 4em -4em;
+    width: 100%;
+    height: 100%; }
 
 #nav1 {
   height: 5vh;
@@ -42,13 +61,24 @@ a {
     padding-right: 2vw;
     padding-left: 2vw;
     display: inline; }
+  #nav1 a {
+    color: #fff;
+    padding: 0.2em 1em 0.2em 1em;
+    margin: 0.6em 0.2em 0.6em 0.2em;
+    border-radius: 8px; }
+    #nav1 a:hover {
+      background: #383838;
+      color: #fff;
+      text-decoration: none !important; }
+    #nav1 a:visited {
+      color: #fff; }
 
 .jumbotron {
   padding: 0;
   margin: 0;
   height: 70vh;
   width: 100%;
-  background-color: #565676; }
+  background-color: #4B7EC1; }
   .jumbotron .container {
     height: 100%;
     text-align: center;
@@ -61,6 +91,17 @@ a {
     position: relative;
     top: 40%;
     color: #fff; }
+  .jumbotron a {
+    color: #fff;
+    padding: 0.2em 1em 0.2em 1em;
+    margin: 0.6em 0.2em 0.6em 0.2em;
+    border-radius: 8px; }
+    .jumbotron a:hover {
+      background: #383838;
+      color: #fff;
+      text-decoration: none !important; }
+    .jumbotron a:visited {
+      color: #fff; }
   .jumbotron .jump {
     width: 100%;
     height: 5%;
@@ -75,37 +116,23 @@ a {
 .summary {
   min-height: 50vh;
   background-color: #fff; }
-  .summary h2 {
-    font-size: 3em; }
-  .summary h3 {
-    font-size: 2em; }
-  .summary p {
-    font-size: 1.5em; }
+  .summary a {
+    color: #fff;
+    padding: 0.2em 1em 0.2em 1em;
+    margin: 0.6em 0.2em 0.6em 0.2em;
+    border-radius: 8px; }
+    .summary a:hover {
+      background: #383838;
+      color: #fff;
+      text-decoration: none !important; }
+    .summary a:visited {
+      color: #fff; }
   .summary .container {
     padding-top: 5%;
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%; }
-  .summary .box.style1 {
-    padding: 3em;
-    margin-bottom: 1em;
-    background-color: #FFFFFF;
-    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-    .summary .box.style1 .fa {
-      font-size: 12.0em;
-      color: #565676; }
-  .summary .box.style2 {
-    padding: 3em;
-    margin-bottom: 1em;
-    background-color: #FFFFFF;
-    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-    .summary .box.style2 .image {
-      position: relative;
-      left: 2em;
-      top: 2em;
-      margin: -4em 0 4em -4em;
-      width: 100%; }
   .summary .jump {
     width: 100%;
     height: 5%;
@@ -124,8 +151,7 @@ a {
     text-align: left; }
 
 .projects {
-  background-color: #F2F4FF;
-  min-height: 100vh; }
+  background-color: #C6E2FF; }
   .projects img {
     max-height: 100%;
     max-width: 100%; }
@@ -135,19 +161,21 @@ a {
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 5%;
-    background-color: #F2F4FF; }
+    background-color: #C6E2FF; }
 
 hr {
   border-style: inset; }
 
 #contact {
-  background-color: #565676;
+  background-color: #4B7EC1;
   color: #fff;
   padding-top: 8em; }
-  #contact a:hover {
-    background-color: transparent; }
   #contact .row {
-    margin-top: 2em; }
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center; }
+  #contact h3 {
+    padding-top: 2em; }
   #contact header {
     text-align: center; }
   #contact input,
@@ -164,6 +192,8 @@ hr {
   #contact #social {
     text-align: center; }
   #contact ul {
+    margin-top: 4em;
+    margin-bottom: 8em;
     list-style: none; }
     #contact ul li {
       width: 4em;
