@@ -1402,7 +1402,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #4eb980;
+  color: #34BC78;
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent; }
@@ -1570,7 +1570,7 @@ textarea {
   select:focus,
   textarea:focus {
     background: rgba(224, 224, 224, 0.15);
-    border-color: #4eb980; }
+    border-color: #34BC78; }
 
 input[type="text"],
 input[type="password"],
@@ -1772,7 +1772,7 @@ input[type="button"],
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  background: #544d55;
+  background: #2374AB;
   border-radius: 4px;
   border: 0;
   color: #ffffff;
@@ -1791,19 +1791,19 @@ input[type="button"],
   input[type="reset"]:hover,
   input[type="button"]:hover,
   .button:hover {
-    background: #6e6570; }
+    background: #2d90d4; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   .button:active {
-    background: #474148; }
+    background: #1f6696; }
   input[type="submit"].alt,
   input[type="reset"].alt,
   input[type="button"].alt,
   .button.alt {
     background: none;
     box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-    color: #544d55; }
+    color: #2374AB; }
     input[type="submit"].alt:hover,
     input[type="reset"].alt:hover,
     input[type="button"].alt:hover,
@@ -1923,7 +1923,7 @@ input[type="button"],
     color: rgba(255, 255, 255, 0.8); }
     #header a:hover {
       border-bottom-color: transparent;
-      color: #4eb980; }
+      color: #34BC78; }
   #header strong, #header b {
     color: #ffffff; }
   #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -1933,9 +1933,9 @@ input[type="button"],
   #header input[type="button"],
   #header .button {
     background: #ffffff;
-    color: #544d55; }
+    color: #2374AB; }
   #header .logo {
-    background: #4eb980;
+    background: #34BC78;
     border-radius: 100%;
     color: #ffffff;
     cursor: default;
@@ -1960,7 +1960,7 @@ input[type="button"],
 /* Footer */
 #footer {
   background-attachment: scroll;
-  background-color: #4eb980;
+  background-color: #34BC78;
   background-image: url("images/bottom-3200.svg");
   background-position: top center;
   background-repeat: repeat-x;
@@ -1998,7 +1998,7 @@ input[type="button"],
   #footer .button {
     background: #ffffff;
     box-shadow: inset 0 0 0 1px #ffffff;
-    color: #4eb980; }
+    color: #34BC78; }
     #footer input[type="submit"]:hover,
     #footer input[type="reset"]:hover,
     #footer input[type="button"]:hover,
