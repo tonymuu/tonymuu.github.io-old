@@ -1608,15 +1608,16 @@ textarea {
   display: inline-block;
   position: relative; }
   .image:after {
-    -moz-transition: opacity 0.25s ease-in-out;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -ms-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    background-image: url("images/overlay.png");
     content: '';
     display: block;
     height: 100%;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.2;
     position: absolute;
     top: 0;
     width: 100%; }
@@ -1639,10 +1640,10 @@ textarea {
     -ms-perspective: 500px;
     perspective: 500px; }
     .image.icon:before {
-      -moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-      -webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-      -ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
-      transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
+      -moz-transition: -moz-transform 0.2s ease-in-out, font-size 0.2s ease-in-out;
+      -webkit-transition: -webkit-transform 0.2s ease-in-out, font-size 0.2s ease-in-out;
+      -ms-transition: -ms-transform 0.2s ease-in-out, font-size 0.2s ease-in-out;
+      transition: transform 0.2s ease-in-out, font-size 0.2s ease-in-out;
       color: #fff;
       font-size: 6em;
       height: 1em;
@@ -1653,12 +1654,10 @@ textarea {
       text-align: center;
       top: 50%;
       width: 1em;
-      z-index: 1; }
+      z-index: 1;
+      opacity: 0; }
     .image.icon:hover:before {
-      -moz-transform: translateZ(1em);
-      -webkit-transform: translateZ(1em);
-      -ms-transform: translateZ(1em);
-      transform: translateZ(1em); }
+      opacity: 1; }
     .image.icon:hover:after {
       opacity: 1; }
 
@@ -1889,18 +1888,13 @@ input[type="button"],
         top: 0; }
     .feature.right .content {
       padding-left: 0; }
-  .feature.both {
-    clear: both;
-    display: inline;
-    position: relative; }
   .feature.long .content {
     padding-top: 0; }
 
 /* Header */
 #header {
   background-attachment: scroll,							scroll,					fixed;
-  background-color: #133C55;
-  background-image: url("images/top-3200.svg"), url("images/overlay.pgn");
+  background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
   background-position: bottom center,					top left,				center center;
   background-repeat: repeat-x,						repeat,					no-repeat;
   background-size: 3200px 460px,					auto,					cover;
@@ -1965,7 +1959,7 @@ input[type="button"],
 #footer {
   background-attachment: scroll;
   background-color: #34BC78;
-  background-image: url("images/bottom-3200.svg"), url("images/overlay.png");
+  background-image: url("images/bottom-3200.svg");
   background-position: top center;
   background-repeat: repeat-x;
   background-size: 3200px 460px;
@@ -2117,7 +2111,7 @@ input[type="button"],
   /* Header */
   #header {
     background-attachment: scroll,							scroll,							scroll;
-    background-image: url("images/top-1600.svg"), url("overlay.jpg");
+    background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
     background-size: 1600px 230px,					auto,							cover;
     padding: 6em 0 12em 0; }
     #header:before {
@@ -2213,8 +2207,7 @@ input[type="button"],
 
   /* Header */
   #header {
-    background-color: #133C55;
-    background-image: url("images/top-1280.svg"), url("images/overlay.jpg");
+    background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
     background-size: 1280px 184px,						auto,							cover;
     padding: 3em 0 7em 0; }
     #header:before {
@@ -2303,4 +2296,4 @@ input[type="button"],
     #header br {
       display: none; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main2.css.map */
