@@ -1374,7 +1374,8 @@ body {
   .\-1u\28mobilep\29 {
     margin-left: 8.33333%; } }
 /* Basic */
-html, body {
+html,
+body {
   height: 100%; }
 
 body {
@@ -1389,7 +1390,10 @@ body {
     -ms-animation: none !important;
     animation: none !important; }
 
-body, input, select, textarea {
+body,
+input,
+select,
+textarea {
   color: #6e6e6e;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16pt;
@@ -1407,17 +1411,30 @@ a {
   a:hover {
     border-bottom-color: transparent; }
 
-strong, b {
+strong,
+b {
   font-weight: 600;
   color: #5b5b5b; }
 
-em, i {
+em,
+i {
   font-style: italic; }
 
-p, ul, ol, dl, table, blockquote, form {
+p,
+ul,
+ol,
+dl,
+table,
+blockquote,
+form {
   margin: 0 0 2em 0; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #5b5b5b;
   font-weight: 700;
   letter-spacing: 0.125em;
@@ -1425,7 +1442,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
   text-transform: uppercase;
   text-align: center; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
     color: inherit;
     text-decoration: none; }
 
@@ -1456,7 +1478,8 @@ blockquote {
   padding: 1em 0 1em 2em; }
 
 /* Section/Article */
-section.special, article.special {
+section.special,
+article.special {
   text-align: center; }
 
 header {
@@ -1656,10 +1679,18 @@ textarea {
       width: 1em;
       z-index: 1;
       opacity: 0; }
+    .image.icon #title1 {
+      position: relative;
+      top: 30%;
+      left: 30%;
+      z-index: 3;
+      visibility: hidden; }
     .image.icon:hover:before {
       opacity: 1; }
     .image.icon:hover:after {
       opacity: 1; }
+    .image.icon:hover #title1 {
+      visibility: visible; }
 
 span.image.icon {
   cursor: default; }
@@ -1700,7 +1731,8 @@ ul.icons {
     padding-left: 0.5em; }
     ul.icons li:first-child {
       padding-left: 0; }
-    ul.icons li a, ul.icons li span {
+    ul.icons li a,
+    ul.icons li span {
       -moz-transition: background-color 0.2s ease-in-out;
       -webkit-transition: background-color 0.2s ease-in-out;
       -ms-transition: background-color 0.2s ease-in-out;
@@ -1712,7 +1744,8 @@ ul.icons {
       line-height: 2em;
       text-align: center;
       width: 2em; }
-      ul.icons li a:hover, ul.icons li span:hover {
+      ul.icons li a:hover,
+      ul.icons li span:hover {
         background: rgba(224, 224, 224, 0.15); }
 ul.actions {
   cursor: default;
@@ -1842,7 +1875,10 @@ input[type="button"],
     clear: both;
     content: '';
     display: block; }
-  .feature h3, .feature h4, .feature h5, .feature h6 {
+  .feature h3,
+  .feature h4,
+  .feature h5,
+  .feature h6 {
     text-align: inherit; }
   .feature .image {
     display: inline-block;
@@ -1893,11 +1929,11 @@ input[type="button"],
 
 /* Header */
 #header {
-  background-attachment: scroll,							scroll,					fixed;
+  background-attachment: scroll, scroll, fixed;
   background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-  background-position: bottom center,					top left,				center center;
-  background-repeat: repeat-x,						repeat,					no-repeat;
-  background-size: 3200px 460px,					auto,					cover;
+  background-position: bottom center, top left, center center;
+  background-repeat: repeat-x, repeat, no-repeat;
+  background-size: 3200px 460px, auto, cover;
   color: rgba(255, 255, 255, 0.8);
   padding: 10em 0 20em 0;
   position: relative;
@@ -1922,9 +1958,15 @@ input[type="button"],
     #header a:hover {
       border-bottom-color: transparent;
       color: #34BC78; }
-  #header strong, #header b {
+  #header strong,
+  #header b {
     color: #ffffff; }
-  #header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
+  #header h1,
+  #header h2,
+  #header h3,
+  #header h4,
+  #header h5,
+  #header h6 {
     color: #ffffff; }
   #header input[type="submit"],
   #header input[type="reset"],
@@ -1964,11 +2006,11 @@ input[type="button"],
   background-repeat: repeat-x;
   background-size: 3200px 460px;
   color: rgba(255, 255, 255, 0.8);
-  /*
-  	Since the SVG background occupies a lot of vertical space, we'll
-  	add additional top padding (to move our content out of its way)
-  	and a negative margin (to move everything up a bit).
-  */
+    /*
+			Since the SVG background occupies a lot of vertical space, we'll
+			add additional top padding (to move our content out of its way)
+			and a negative margin (to move everything up a bit).
+		*/
   margin-top: -260px;
   padding: calc(460px + 6em) 0 10em 0;
   position: relative;
@@ -1984,9 +2026,15 @@ input[type="button"],
     z-index: 0; }
   #footer a {
     color: #ffffff; }
-  #footer strong, #footer b {
+  #footer strong,
+  #footer b {
     color: #ffffff; }
-  #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+  #footer h1,
+  #footer h2,
+  #footer h3,
+  #footer h4,
+  #footer h5,
+  #footer h6 {
     color: #ffffff; }
   #footer header p {
     color: rgba(255, 255, 255, 0.5); }
@@ -2027,9 +2075,11 @@ input[type="button"],
         padding: 0;
         margin: 0;
         border: 0; }
-      #footer .copyright li a, #footer .copyright li span {
+      #footer .copyright li a,
+      #footer .copyright li span {
         color: inherit; }
-        #footer .copyright li a:hover, #footer .copyright li span:hover {
+        #footer .copyright li a:hover,
+        #footer .copyright li span:hover {
           color: #ffffff; }
 
 /* Main */
@@ -2053,7 +2103,10 @@ input[type="button"],
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 14pt; }
 
   h2 {
@@ -2077,7 +2130,10 @@ input[type="button"],
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 13pt; }
 
   h2 {
@@ -2110,9 +2166,9 @@ input[type="button"],
 
   /* Header */
   #header {
-    background-attachment: scroll,							scroll,							scroll;
+    background-attachment: scroll, scroll, scroll;
     background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: 1600px 230px,					auto,							cover;
+    background-size: 1600px 230px, auto, cover;
     padding: 6em 0 12em 0; }
     #header:before {
       height: calc(100% - 25px); }
@@ -2138,7 +2194,10 @@ input[type="button"],
 /* Narrow */
 @media screen and (max-width: 980px) {
   /* Basic */
-  body, input, select, textarea {
+  body,
+  input,
+  select,
+  textarea {
     font-size: 12pt; } }
 /* Narrower */
 @media screen and (max-width: 840px) {
@@ -2208,7 +2267,7 @@ input[type="button"],
   /* Header */
   #header {
     background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: 1280px 184px,						auto,							cover;
+    background-size: 1280px 184px, auto, cover;
     padding: 3em 0 7em 0; }
     #header:before {
       height: calc(100% - 20px); }
