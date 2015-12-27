@@ -741,16 +741,18 @@ input[type="button"],
     }
     .logo {
         background: _palette(accent1, bg);
+        background-image: url("images/me.jpg");
+        background-size: cover;
         border-radius: 100%;
         color: _palette(accent1, fg-bold);
         cursor: default;
         display: inline-block;
         font-size: 2.25em;
-        height: 2.35em;
+        height: 3em;
         line-height: 2.35em;
         margin: 0 0 0.75em 0;
         text-align: center;
-        width: 2.35em;
+        width: 3em;
         &.fa-paper-plane-o:before {
             left: -0.075em;
             position: relative;

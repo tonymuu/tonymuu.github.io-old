@@ -1987,16 +1987,18 @@ input[type="button"],
     color: #2374AB; }
   #header .logo {
     background: #34BC78;
+    background-image: url("images/me.jpg");
+    background-size: cover;
     border-radius: 100%;
     color: #ffffff;
     cursor: default;
     display: inline-block;
     font-size: 2.25em;
-    height: 2.35em;
+    height: 3em;
     line-height: 2.35em;
     margin: 0 0 0.75em 0;
     text-align: center;
-    width: 2.35em; }
+    width: 3em; }
     #header .logo.fa-paper-plane-o:before {
       left: -0.075em;
       position: relative; }
